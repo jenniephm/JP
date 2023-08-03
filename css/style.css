@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	width: 70%; margin: 0 auto
+}
+header {
+	width: 100%; min-height: 50px; line-height: 50px; 
+}
+.logo {
+	width: 15%; height: auto; padding-top: 15px
+}
+.logo img {
+	transition: all 0.7s
+}
+.logo img:hover {
+	transform: scale(1.2); opacity: 0.7
+}
+.menu ul {
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a {
+	padding: 5px 20px; text-decoration: none; color: #666666; display: block
+}
+.menu ul li a:hover {
+	background-color: #945336; color: white; text-transform: uppercase
+}
+.symbol {
+	width: 15%; display: flex; padding-top: 10px
+}
+.symbol a {
+	margin-left: 15px
+}
+.symbol img {
+	transition: all 0.7s
+}
+.symbol img:hover {
+	transform: scale(1.2); opacity: 0.7
+}
+header{
+	width: 100%; min-height: 50px; line-height: 50px
+}
+.container{
+	width: 80%; margin: 0 auto
+}
+#banner{
+	width: 100%
+}
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+
+.text-do{
+	color: darkred; font-size: 15px;
+}
+.vien{
+	width: 100%; min-height: 120px; border:2px solid white
+}
+
+#product{
+	width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover;
+	background-position: center bottom; 
+}
+#product h1{
+	padding-top: 20px
+}
+.gach-chan{
+	border-bottom: 2px solid #8B0000
+}
+.vien{
+	width: 100%; border: 1px solid darkred; text-align: center
+}
+.vien h4{
+	color: darkred; font-size: 18px
+}
+.vien a{
+	text-decoration: none; color: darkred
+}
+.vien a:hover{
+color: white	
+}
+.vien:hover{
+box-shadow: 5px 5px 10px gray
+}
+.khung-text{
+	
+}
+.text-blogxam{
+	font-size: 30px
+}
+#blog{
+	width: 80% ;margin: 0 auto; min-height: 500px; text-align: center
+}
+
+
+#contact{
+	width: 100%; min-height: 500px; background: url("../images/Shop-Banner2.png"); background-repeat: no-repeat;background-size: cover;
+	background-position: center center
+}
+#contact h1{
+	padding-top: 20px
+}
+.shadow{
+	padding-top: 50px; width: 100%; min-height: 300px; padding:30px; box-shadow: 5px 5px 5px lightgray; border: 1px solid lightgray; 
+}
+.img-100{
+	width: 100%
+}
+#newarrival .vien{
+	position: relative; overflow: hidden
+}
+#newarrival .icon{
+	position: absolute; width: 70%; height: 45px;justify-content: space-around; top:110%; left:15%; display: flex; transition: all 1s
+}
+#newarrival .icon a{
+	width: 45px; height: 45px; display: flex; justify-content: center; align-items: center;text-decoration: none; background-color: #FFDCDD; border-radius: 50%; color:#00489E
+}#newarrival .icon a:hover{
+	background-color: #878787; color: #FFDCDD
+}
+#newarrival .vien:hover .icon{top: 60%; 
+	
+}
+.margin-bottom{
+	margin-bottom: 5px
+}
